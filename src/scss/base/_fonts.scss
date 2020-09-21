@@ -1,6 +1,27 @@
 @font-face {
-	font-family: "Montserrat";
-	src: url("../src/fonts/Montserrat-Regular.ttf") format("opentype");
+	font-family:' Roboto-Regular';
+	src: url("../fonts/Roboto-Regular.ttf") format("opentype");
 }
-$primary-font: Montserrat, sans-serif;
+$primary-font: 'Roboto-Regular', sans-serif;
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url("../fonts/Roboto-Bold.ttf") format("opentype");
+}
+$bold-font: 'Roboto-Bold',sans-serif;
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url("../fonts/Roboto-Black.ttf") format("opentype");
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url("../fonts/Roboto-Medium.ttf") format("opentype");
+}
+@font-face {
+	font-family: 'Lobster-Regular';
+	src: url("../fonts/Lobster-Regular.ttf") format("opentype");
+}
+
+
 

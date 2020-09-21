@@ -5,17 +5,152 @@
 
 * {
 	box-sizing: border-box;
-	background: transparent;
+	padding: 0;
+	margin: 0;
 }
 
 body {
+	font-family: $primary-font;
 
 }
 
 section {
 	padding: 2em 0;
 }
+h2 {
+	font-size: 2.5em;
+	font-weight: 800;
+}
+.header {
+	background:url(../images/brunki.png) top left ,url(../images/bath_set.png) bottom right , url(../images/bg.jpg) center/cover;
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+	padding: 0;
+	position: relative;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	z-index: 0;
+	
+}
+nav {
+	background: rgba(31,21,13, .72);
+    top: 0;
+    box-shadow: -1px 7px 15px 10px rgba(31,21,13, .72);
+    z-index: 10;
+}
 
 
+.nav-link {
+	text-transform: uppercase;
+	font-family: $bold-font;
+	color:white;
+}
+h1 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: "Lobster-Regular";
+	font-size: 7em;
+	text-align: center;
+	background: url(../images/bg.jpg);
+	background-attachment: fixed;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
 
+
+	&:before {
+		content: attr(data-text);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: -1;
+		text-shadow: -5px 5px 20px #fff,
+					 -15px 10px 30px #fff,
+					 -25px 15px 40px #351900,
+					 -35px 20px 50px #fff;				
+	}
+	// .neon-white {
+	// 	display: block;
+	// 	width: 50%;
+	//     margin: 45px auto;
+	//     border: 1px solid #fff;
+	//     box-shadow: 6px 3px 28px 15px #fff;
+
+	// }	
+}
+
+.about-us {
+	width: 100%;
+
+	h2 {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	img {
+		max-width: 100%;
+		overflow: hidden;
+		z-index: -3;
+	}
+}
+.image-content {
+	margin-top: 20px;
+}
+
+.form {
+	background: rgba(255,255,255,.6);
+	width: 100%;
+	background-image: url(../images/bg.jpg);
+}
+form {
+
+	input {
+		background-image: url(../images/bg.jpg);
+		padding: 14px 20px;
+		margin-bottom: 10px;
+		border-radius: 12px;
+		color: white;
+		border-style: solid;
+		outline: none;
+		font-size: 20px;
+	}
+	a {
+		background-image: url(../images/bg.jpg);
+		padding: 14px 20px;
+		margin-top: 25px;
+		border-radius: 12px;
+		color: white;
+		border-style: solid;
+		outline: none;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: 800;
+		text-align: center;
+
+		&:hover {
+			text-decoration: none;
+			color:white;
+		}
+	}
+}
+footer {
+	background: #1f150d;
+    top: 0;
+    box-shadow: 3px 17px 90px 95px rgb(31,21,13);
+
+    .footer-content {
+    	padding: 20px 0;
+
+    	a {
+    		text-decoration: none;
+    		color: white;
+    		padding: 0 20px ;
+    	}
+    }
+}
 
