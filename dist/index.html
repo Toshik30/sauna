@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js">
     <!-- Скрипты Slick -->
-    <link rel="stylesheet" href="../scss/style.scss">
+    <link rel="stylesheet" href="scss/style.scss?v=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 
-  <link href="./css/style.bundle.css?v=1" rel="stylesheet"></head>
+  <link href="./css/style.bundle.css" rel="stylesheet"></head>
   <body>
     <section class="header">
       <nav class="navbar position-fixed w-100 navbar-expand-lg navbar-dark ">
@@ -53,45 +53,48 @@
       <div class="container">
         <h2>О нас:</h2>
         <div class="about-us-content d-flex flex-wrap justify-content-between">
-          <div class="text-content d-flex align-items-center text-center col-lg-6">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dignissimos, adipisci deserunt illum voluptatum reprehenderit placeat laboriosam itaque similique repellendus!</p>
-          </div>
           <div class="image-content col-lg-6">
             <img src="./images/about1.jpg" alt="bath">
           </div>
-          
-          <div class="image-content col-lg-6">
-            <img src="./images/about2.jpg" alt="sauna">
+          <div class="text-content d-flex align-items-center text-center col-lg-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dignissimos, adipisci deserunt illum voluptatum reprehenderit placeat laboriosam itaque similique repellendus!</p>
           </div>
           <div class="text-content  d-flex align-items-center text-center col-lg-6 ">
             <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Magni nihil eligendi, voluptate blanditiis temporibus? Fugit maxime voluptates iusto quos ipsa.</p>
           </div>
-          <div class="text-content  d-flex align-items-center text-center col-lg-6">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi totam, harum fugiat iste quaerat delectus eveniet, cumque nihil incidunt voluptate!</p>
+          <div class="image-content col-lg-6">
+            <img src="./images/about2.jpg" alt="sauna">
           </div>
           <div class="image-content col-lg-6">
             <img src="./images/about3.jpg" alt="sauna">
           </div>
+          <div class="text-content  d-flex align-items-center text-center col-lg-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi totam, harum fugiat iste quaerat delectus eveniet, cumque nihil incidunt voluptate!</p>
+          </div>
+          
           
         </div>
       </div>
     </section>
     <section class="form">
       <div class="container">
-        <form action="telegram.php" method="post" class="col-lg-6 d-flex flex-column justify-content-center m-auto ">
+        <form action="telegram.php" method="post" class="col-lg-6 col-md-6 d-flex flex-column justify-content-center m-auto ">
           <input type="text" name="name" required  placeholder="Имя">
           <input type="phone" name="phone" required  placeholder="Номер телефона">
           <input type="data" name="date" required  placeholder="Желаемая дата">
-          <a  type="submit" href="Send.html" target="_blank">Отправить</a>
+          <button  type="submit">Отправить</button>
       </form>
       </div>
     </section>
-    <section>
+    <footer>
       <div class="container">
-        <div id="movie"></div>
-        <div id="description"></div>
+        <div class="footer-content d-flex justify-content-center flex-wrap">
+          <a href="">+38(095)20-20-020</a>
+          <a href="">info@gmail.com</a>
+          <a href="">Slavytich, Kievskiy street, 14a</a>
+        </div>
       </div>
-    </section>
+    </footer>
     <!-- Скрипты Slick -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> -->

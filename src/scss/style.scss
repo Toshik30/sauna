@@ -22,8 +22,7 @@ h2 {
 	font-weight: 800;
 }
 .header {
-	background:url(../images/brunki.png) top left ,url(../images/bath_set.png) bottom right , url(../images/bg.jpg) center/cover;
-	
+	background:url(../images/brunki.png) top left , url(../images/bg.jpg) center/cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	min-height: 100vh;
@@ -32,7 +31,7 @@ h2 {
 	display: flex;
 	align-items:center;
 	justify-content: center;
-	z-index: 0;
+	z-index: 3;
 	
 }
 nav {
@@ -119,7 +118,7 @@ form {
 		outline: none;
 		font-size: 20px;
 	}
-	a {
+	button {
 		background-image: url(../images/bg.jpg);
 		padding: 14px 20px;
 		margin-top: 25px;
